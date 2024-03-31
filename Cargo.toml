@@ -1,0 +1,10 @@
+[package]
+name = "reinventing_the_ecs_wheel"
+version = "0.1.0"
+edition = "2021"
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[dependencies]
+ecs_lib = { path = "ecs_lib/" }
